@@ -8,7 +8,7 @@ import json as js
 def scrape(subreddit, field, startTime, endTime, quantity):
     size = 1000 #1000 is limit
     total_lines = 0
-    ret = ''
+    ret = []
 
     while startTime < endTime:
         if (total_lines >= quantity): break
@@ -19,8 +19,7 @@ def scrape(subreddit, field, startTime, endTime, quantity):
             idx+=1
             total_lines += 1
             if (total_lines >= quantity): break
-            ret += post[field]
-            if (idx == size): startTime = post['created_utc'] + 10
-            else: ret += '\n'
+            ret.append(post[field])
+            if (idx == size): startTime = post['created_utc'] + 1
 
     return ret
