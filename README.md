@@ -4,8 +4,11 @@ Simple but versatile method for retrieving information from reddit posts. I pers
 
 ## Usage
 *def scrape(subreddit, field, startTime, endTime, quantity):*
+
 subreddit: Subreddit to extract posts from, ex: 'funny'
+
 field: Post characteristic to retrieve
+
   example options (full list of options can be found on the [Pushshift API](https://github.com/pushshift/api) GitHub):
     -'author': post author
     -'created_utc': post creation time (epoch time)
