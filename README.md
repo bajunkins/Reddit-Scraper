@@ -37,6 +37,7 @@ returns: List of {field} for each post from {subreddit}
 
 
 ## Example Usage
+>>> python
 
 >>> import redditscraper as rs
 
