@@ -41,11 +41,9 @@ returns: List of {field} for each post from {subreddit}
 
 >>> import redditscraper as rs
 
->>> results = rs.scrape('funny', 'title', , 1577312017, 5)
+>>> results = rs.scrape('funny', 'title', 1576810943, 1577312017, 5)
 
 >>> print(results)
-
-['Anti-Gravitational Puffs tissues', 'The harsh reality', 'My favorite memory from Vegas (fixed)', 'Anyone ever heard of the 2\' 10" stripper?(I\'ve been hoarding this picture taken from a newspaper for awhile)']
 
 
 ## Built With
