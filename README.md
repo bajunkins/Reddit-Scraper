@@ -37,13 +37,13 @@ returns: List of {field} for each post from {subreddit}
 
 
 ## Example Usage
->>> python
+\>\>\> python
 
->>> import redditscraper as rs
+\>\>\> import redditscraper as rs
 
->>> results = rs.scrape('funny', 'title', 1576810943, 1577312017, 5)
+\>\>\> results = rs.scrape('funny', 'title', 1576810943, 1577312017, 5)
 
->>> print(results)
+\>\>\> print(results)
 
 
 ## Built With
